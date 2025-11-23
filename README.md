@@ -57,9 +57,11 @@ This project is developed based on Non-NllD, if you find this repository useful,
 
 ## Developor
 
-Liang Xu (2636802625@qq.com)
-
 Xiaolu Xu (lu.xu@lnnu.edu.cn)
+
+Shuai Zheng (zhengshuai714@163.com)
+
+Liang Xu (13394119705@163.com)
 
 School of Computer and Artificial Intelligence 
 
