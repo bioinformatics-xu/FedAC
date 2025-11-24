@@ -4,8 +4,8 @@ import numpy as np
 import random
 import argparse
 import csv
-
 from utils import mkdirs
+
 def partition_data(dataset, class_id, K, partition, n_parties, beta, seed):
     np.random.seed(seed)
     random.seed(seed)
@@ -59,7 +59,6 @@ def get_args():
     parser.add_argument('--beta', type=float, default=0.5, help='The parameter for the dirichlet distribution for data partitioning')
     args = parser.parse_args()
     return args
-
 
 if __name__ == '__main__':
     args = get_args()
