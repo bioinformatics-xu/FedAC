@@ -5,12 +5,9 @@ import torch.utils.data as data
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
-
 from sklearn.metrics import confusion_matrix, f1_score
-
 from model import *
 from datasets import Generated, sick_binary
-
 import random
 from sklearn import metrics
 
